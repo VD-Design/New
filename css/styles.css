@@ -1,0 +1,75 @@
+:root {
+    --primary-text-color: #000000;
+    --secondary-text-color: #9b9b9b;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+}
+
+/* BODY */
+
+
+.body {
+font-family: 'Times New Roman', Times, serif;
+color: var(--primary-text-color)
+}
+
+
+.button {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+
+
+.list {
+    list-style: none;
+}
+
+/* HEADER */
+
+.site-nav {
+    color: var(--primary-text-color );
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+/* not working active? */
+.site-nav .link:active {
+    color: var(--accent-color);
+}
+
+
+
+/* HERO*/
+
+
+.hero-title {
+    color: var(--primary-white-color);
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.hero .link {
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+
+.hero .link:hover,
+.hero .link:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-text-color);
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+}
