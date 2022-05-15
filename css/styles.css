@@ -5,14 +5,17 @@
     --primary-white-color: #ffffff;
 }
 
-/* BODY */
-
+/* GENERAL */
 
 .body {
 font-family: 'Times New Roman', Times, serif;
-color: var(--primary-text-color)
+color: var(--primary-text-color);
+font-size: 14px;
 }
 
+.hide {
+    display: none;
+}
 
 .button {
     color: var(--secondary-text-color);
@@ -23,9 +26,16 @@ color: var(--primary-text-color)
 
 .button:hover,
 .button:focus {
-    color: var(--secondary-text-color);
-    background-color: var(--accent-color);
+    color: var(--accent-color);
+    background-color: var(--primary-text-color);
 }
+
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
 
 
 .list {
@@ -36,13 +46,11 @@ color: var(--primary-text-color)
 
 .site-nav {
     color: var(--primary-text-color );
-    font-size: 14px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
-/* not working active? */
+/* QUESTION four not working active */
 .site-nav .link:active {
     color: var(--accent-color);
 }
@@ -51,9 +59,8 @@ color: var(--primary-text-color)
 
 /* HERO*/
 
-
 .hero-title {
-    color: var(--primary-white-color);
+    color: var(--accent-color);
     font-size: 44px;
     font-weight: bold;
 }
@@ -69,7 +76,38 @@ color: var(--primary-text-color)
     background-color: var(--primary-text-color);
 }
 
-.section-title {
-    font-size: 36px;
+/* features */
+
+.features .title {
+    font-size: 14px;
     font-weight: bold;
+}
+
+
+/* our team */
+
+.team {
+    font-size: 16px;
+}
+
+/* QUESTION one medium weight */
+.team .title {
+   font-weight: bold;
+}
+
+/* footer */
+.footer-nav {
+    color: var(--secondary-text-color);
+}
+
+.footer-nav .link:focus {
+    color: var(--secondary-text-color);
+}
+
+.footer-nav .link-map {
+    color: var(--primary-white-color);
+}
+
+.footer-nav .link-map:focus {
+    color: var(--primary-white-color);
 }
