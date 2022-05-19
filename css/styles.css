@@ -8,20 +8,39 @@
 /* GENERAL */
 
 .body {
-font-family: 'Times New Roman', Times, serif;
+font-family: 'roboto', sans-serif;
 color: var(--primary-text-color);
+font-weight: 400;
 font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 }
 
 .hide {
     display: none;
 }
 
+.logo {
+    font-family: 'raleway', sans sans-serif;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo .accent {
+    color: var(--accent-color);
+}
+
 .button {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-decoration: none;
 }
 
 .button:hover,
@@ -32,8 +51,11 @@ font-size: 14px;
 
 
 .section-title {
-    font-size: 36px;
-    font-weight: bold;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 
@@ -46,6 +68,10 @@ font-size: 14px;
 
 .site-nav {
     color: var(--primary-text-color );
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -61,8 +87,13 @@ font-size: 14px;
 
 .hero-title {
     color: var(--accent-color);
+    font-weight: 900;
     font-size: 44px;
-    font-weight: bold;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero .link {
@@ -79,8 +110,11 @@ font-size: 14px;
 /* features */
 
 .features .title {
+    font-weight: 700;
     font-size: 14px;
-    font-weight: bold;
+    line-height: 1.14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 
@@ -88,20 +122,21 @@ font-size: 14px;
 
 .team {
     font-size: 16px;
+    line-height: 1.18;
 }
 
-/* QUESTION one medium weight */
 .team .title {
-   font-weight: bold;
+    font-weight: 500;
 }
 
 /* footer */
 .footer-nav {
-    color: var(--secondary-text-color);
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .footer-nav .link:focus {
-    color: var(--secondary-text-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-nav .link-map {
